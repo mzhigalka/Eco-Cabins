@@ -344,6 +344,14 @@ body{
   border: 0.0625rem solid #646D70;
   padding: 0.625rem 0.9375rem;
   margin-top: 0.625rem;
+  transition: background-color .5s ease;
+
+}
+
+.material__more:hover{
+  background-color: #222F33;
+  transition: background-color .5s ease;
+  color: #fff;
 }
 
 .material__slider {
@@ -396,6 +404,29 @@ body{
 
 .slider-material__pagination .swiper-pagination-bullet-active{
   opacity: 1;
+}
+
+.innovatie{
+  background-color: #222F33;
+}
+
+.innovatie__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2.6875rem;
+  padding: 4.5rem 0 5rem 0;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.innovatie__title{
+  padding-bottom: 0.5rem;
+}
+
+.innovatie__text{
+  opacity: 0.7;
 }
 
 
