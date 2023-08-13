@@ -452,8 +452,15 @@ body{
 }
 
 .about__title-text{
-  font-size: 12px;
-  line-height: 22px;
+  font-size: 0.75rem;
+  line-height: 1.375rem;
+}
+
+@media (max-width: 51.875em) {
+  .about__content{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 
