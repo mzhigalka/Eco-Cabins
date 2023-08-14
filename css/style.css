@@ -456,6 +456,55 @@ body{
   line-height: 1.375rem;
 }
 
+.footer {
+  background-color: #222F33;
+  padding: 2.0625rem 0 2.0625rem 0;
+}
+
+.footer__container {
+  display: grid;
+  color: #fff;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.9375rem;
+  row-gap: 1.25rem;
+}
+
+.footer__mail {
+  font-size: 0.75rem;
+  font-weight: 500;
+  opacity: 0.6;
+  font-size: 14px;
+}
+.footer__mail:hover{
+  text-decoration: underline;
+}
+
+.footer__logo {
+  justify-self: center;
+}
+
+
+.menu-footer {
+  justify-self: end;
+  opacity: 0.6;
+  display: flex;
+  gap: 1.875rem;
+  align-items: center;
+}
+
+.menu-footer__link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 37.5rem){
+  .footer__container{
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 @media (max-width: 51.875em) {
   .about__content{
     flex-wrap: wrap;
